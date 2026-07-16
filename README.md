@@ -167,10 +167,14 @@ The app communicates with several backend services:
 
 ---
 
-## 📄 License
+📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This repository is intended for portfolio and demonstration purposes only.
 
----
+The implementation source code remains private.
+
+If you are a recruiter or reviewer and would like to discuss the implementation details, feel free to contact me.
+
+📧 samazienhom@gmail.com
 
 Developed with ❤️ for the Travel Community.
