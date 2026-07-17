@@ -21,7 +21,7 @@ Developed as a graduation project, Rahhal leverages cutting-edge Android technol
 *   **📸 Social Networking**: A full-featured social platform where users can post their travel experiences, share stories, and follow others.
 *   **💬 Real-time Chat**: Secure messaging powered by SignalR for instant communication between travelers.
 *   **🏨 Complete Booking Engine**: Integrated search and booking for **Flights**, **Hotels**, and **Guided Tours**.
-*   **🗺️ Interactive Maps**: Real-time location services using Google Maps and MapLibre for navigating destinations.
+*   **🗺️ Interactive Maps**: Real-time location services 
 *   **🗣️ LiveLingo**: Built-in AI translation tool to help travelers overcome language barriers.
 *   **💳 Secure Payments**: Integrated payment flow for booking management.
 *   **👤 Role-Based Experience**: Tailored experiences for Guests and Registered Travelers.
@@ -37,7 +37,6 @@ Developed as a graduation project, Rahhal leverages cutting-edge Android technol
 *   **Networking**: [Retrofit](https://square.github.io/retrofit/) & OkHttp for REST APIs, **SignalR** for real-time WebSockets.
 *   **Local Database**: [Room Persistence Library](https://developer.android.com/training/data-storage/room) for caching and offline data.
 *   **Image Loading**: [Glide](https://github.com/bumptech/glide)
-*   **Maps & Location**: Google Maps SDK, MapLibre GL, and Fused Location Provider.
 *   **AI Integration**: Custom AI services for trip generation and translation.
 *   **Animations**: [Lottie](https://airbnb.design/lottie/) for engaging UI transitions and **Shimmer** for loading states.
 *   **Other Libraries**: CameraX, FFmpeg (media processing), Markwon (Markdown rendering), FlexBox, Lottie.
@@ -113,8 +112,8 @@ sequenceDiagram
 ## 🌐 API Integration
 
 The app communicates with several backend services:
-*   **Main API**: `https://rahalbk.runasp.net/` (Auth, Social, Trips, Bookings)
-*   **AI Service**: `https://driven-committees-parade-burner.trycloudflare.com` (Agent, Translation)
+*   **Main API**:  (Auth, Social, Trips, Bookings)
+*   **AI Service**: (Agent, Translation)
 *   **SignalR Hub**: For real-time chat and notifications.
 
 ---
