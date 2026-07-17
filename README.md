@@ -129,40 +129,12 @@ The app communicates with several backend services:
 
 ---
 
-## 🛠️ Setup & Build Requirements
-
-### Build Requirements
-*   **Android Studio**: Hedgehog (2023.1.1) or newer.
-*   **JDK**: Version 11.
-*   **Gradle**: Version 8.x.
-*   **SDK**: Min SDK 24, Target SDK 35.
-
-### Setup Instructions
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/Rahhal.git
-    ```
-2.  **Open in Android Studio**: Wait for Gradle sync to complete.
-3.  **API Keys**:
-    *   Add your Google Maps API Key in `local.properties`: `MAPS_API_KEY=your_key_here`.
-    *   The app uses `${MAPS_API_KEY}` which is injected via the `secrets-gradle-plugin`.
-4.  **Run**: Select your device/emulator and click the **Run** button.
-
----
-
 ## 🔮 Future Improvements
 
 *   **Dark Mode**: Full support for dynamic theme switching.
 *   **Offline First**: Enhanced caching for full offline trip management.
 *   **AR Navigation**: Integration of Augmented Reality for city tours.
 *   **Multi-currency Support**: Automatic currency conversion in payments.
-
----
-
-## 👥 Contributors
-
-*   **Your Name / Team Name** - *Initial work* - [Profile](https://github.com/your-username)
-*   (Add more contributors here)
 
 ---
 
@@ -176,4 +148,4 @@ If you are a recruiter or reviewer and would like to discuss the implementation 
 
 📧 samazienhom@gmail.com
 
-Developed with ❤️ for the Travel Community.
+
